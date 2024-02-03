@@ -1,0 +1,32 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+@import url('https://fonts.cdnfonts.com/css/wonder-boy-in-monster-world');
+
+:root {
+  /*variables globales, fuentes y paleta de colres */
+  --main-font-color: #ffcc00;
+  --secondary-font-color: #195dac;
+  --shadow-font: #013a71;
+  --text-font-color: #f8fcfb;
+  --title-font: 'Pokemon Solid', sans-serif;
+  --text-font: 'Wonder Boy In Monster World', sans-serif;
+  --bg-color: #80d060;
+}
+
+.title {
+  color: var(--main-font-color);
+  font-family: var(--title-font);
+  -webkit-text-stroke-width: 17px;
+  -webkit-text-stroke-color: var(--secondary-font-color);
+  font-size: 250px;
+  text-shadow: var(--shadow-font) -20px 20px;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+p {
+  font-family: var(--text-font);
+  color: var(--text-font-color);
+  font-size: 200px;
+}
